@@ -28,5 +28,9 @@ public int getMarks() {
 public void setMarks(int marks) {
 	this.marks = marks;
 }
+@Override
+public String toString() {
+	return "Stud_test [studid=" + studid + ", testid=" + testid + ", marks=" + marks + "]";
+}
 }
 

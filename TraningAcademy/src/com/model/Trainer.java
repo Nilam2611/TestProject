@@ -28,4 +28,8 @@ public long getMobileno() {
 public void setMobileno(long mobileno) {
 	this.mobileno = mobileno;
 }
+@Override
+public String toString() {
+	return "Trainer [trainerid=" + trainerid + ", name=" + name + ", mobileno=" + mobileno + "]";
+}
 }

@@ -36,4 +36,9 @@ public int getBatchid() {
 public void setBatchid(int batchid) {
 	this.batchid = batchid;
 }
+@Override
+public String toString() {
+	return "Student [studentid=" + studentid + ", sname=" + sname + ", mobileno=" + mobileno + ", batchid=" + batchid
+			+ "]";
+}
 }

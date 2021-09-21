@@ -28,6 +28,10 @@ public int getTrainerid() {
 public void setTrainerid(int trainerid) {
 	this.trainerid = trainerid;
 }
+@Override
+public String toString() {
+	return "Batch [batchid=" + batchid + ", batchname=" + batchname + ", trainerid=" + trainerid + "]";
+}
 
 }
 

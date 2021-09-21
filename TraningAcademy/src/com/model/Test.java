@@ -20,5 +20,9 @@ public String getTestname() {
 public void setTestname(String testname) {
 	this.testname = testname;
 }
+@Override
+public String toString() {
+	return "Test [testid=" + testid + ", testname=" + testname + "]";
+}
 }
 
